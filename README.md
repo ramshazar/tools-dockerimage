@@ -19,14 +19,14 @@ kubectl exec -ti dockersock /bin/bash
 
 ### BOtB
 
-BOtB is a tool from @brompwnie https://github.com/brompwnie/botb
+BOtB is a tool from [@brompwnie](https://github.com/brompwnie/botb)
 I personally enjoy the options "-autopwn" and "-scrape-gcp" most.
 
 ### amicontained
 
-amicontained is a tool from @jessfraz https://github.com/genuinetools/amicontained/
+amicontained is a tool from [@jessfraz](https://github.com/genuinetools/amicontained/)
 Use this if you ask yourself: "Am I contained?" 
 
 ### kubectl
 
-I got the idea from Rorys docker image to include versions of kubectl https://github.com/raesene/alpine-containertools/blob/master/Dockerfile
+I got the idea from [Rorys docker image](https://github.com/raesene/alpine-containertools/blob/master/Dockerfile) to include versions of kubectl
