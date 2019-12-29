@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dockersock
+  labels:
+    app: dockersock
+spec:
+  containers:
+  - image: docker.io/ramshazar/tools:latest
+    command:
+      - sleep
+      - "3600"
+    imagePullPolicy: Always
+    name: dockersock
+    volumeMounts:
+      - name: dockersock
+        mountPath: "/var/run/docker.sock"
+  volumes:
+    - name: dockersock
+      hostPath:
+        path: /var/run/docker.sock
+  restartPolicy: Always
